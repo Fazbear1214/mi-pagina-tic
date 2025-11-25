@@ -10,7 +10,7 @@ body {
 
 /* Fondos por página */
 body.index {
-    background-image: url('fondo.jpg');
+    background-image: url('/fondo.jpg');
 }
 
 body.hardware {
@@ -77,4 +77,5 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
 
