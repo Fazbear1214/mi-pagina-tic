@@ -1,0 +1,78 @@
+/* Estilo general */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* Fondos por página */
+body.index {
+    background-image: url('images/fondo.jpg');
+}
+
+body.hardware {
+    background-image: url('images/hardware.jpg');
+}
+
+body.software {
+    background-image: url('images/software.jpg');
+}
+
+body.internet {
+    background-image: url('images/internet.jpg');
+}
+
+body.seguridad {
+    background-image: url('images/seguridad.jpg');
+}
+
+/* Header y menú */
+header {
+    background-color: rgba(0,0,0,0.6);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main */
+main {
+    padding: 40px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.4);
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(0,0,0,0.6);
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
