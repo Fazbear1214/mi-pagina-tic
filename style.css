@@ -10,23 +10,23 @@ body {
 
 /* Fondos por página */
 body.index {
-    background-image: url('images/fondo.jpg');
+    background-image: url('fondo.jpg');
 }
 
 body.hardware {
-    background-image: url('images/hardware.jpg');
+    background-image: url('hardware.jpg');
 }
 
 body.software {
-    background-image: url('images/software.jpg');
+    background-image: url('software.jpg');
 }
 
 body.internet {
-    background-image: url('images/internet.jpg');
+    background-image: url('internet.jpg');
 }
 
 body.seguridad {
-    background-image: url('images/seguridad.jpg');
+    background-image: url('seguridad.jpg');
 }
 
 /* Header y menú */
@@ -77,3 +77,4 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
